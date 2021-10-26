@@ -8,7 +8,7 @@ import { NavController } from 'ionic-angular';
 export class HomePage {
   name: any = 'vilasini';
   array: any = [];
-  countMap: Map<any, any> = new Map<any, any>();
+  countMap = new Map<any, any>();
 
   constructor(public navCtrl: NavController) {}
 
